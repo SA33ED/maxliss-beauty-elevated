@@ -58,16 +58,6 @@ const ForExpertsSection = () => {
           ))}
         </div>
 
-        <ScrollReveal>
-          <div className="text-center">
-            <a
-              href="#download"
-              className="inline-block rounded-full bg-primary px-10 py-4 font-semibold text-primary-foreground hover:opacity-90 hover:scale-105 transition-all shadow-lg"
-            >
-              Apply to Become an Expert
-            </a>
-          </div>
-        </ScrollReveal>
       </div>
     </section>
   );
