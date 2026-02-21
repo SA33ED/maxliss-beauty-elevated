@@ -22,7 +22,9 @@ const AppDownloadSection = () => {
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <a
-                  href="#"
+                  href="https://apps.apple.com/eg/app/maxliss/id6742495852"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 rounded-xl bg-primary-foreground px-6 py-3.5 text-primary font-semibold hover:shadow-lg hover:scale-105 transition-all"
                 >
                   <Apple size={24} />
@@ -32,7 +34,9 @@ const AppDownloadSection = () => {
                   </div>
                 </a>
                 <a
-                  href="#"
+                  href="https://play.google.com/store/apps/details?id=com.evyx.maxliss"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 rounded-xl bg-primary-foreground px-6 py-3.5 text-primary font-semibold hover:shadow-lg hover:scale-105 transition-all"
                 >
                   <Play size={24} />

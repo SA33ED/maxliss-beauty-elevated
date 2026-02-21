@@ -36,13 +36,7 @@ const HeroSection = () => {
                 className="rounded-full bg-primary-foreground px-8 py-3.5 font-semibold text-primary hover:shadow-lg hover:scale-105 transition-all"
               >
                 Download the App
-              </a>
-              <a
-                href="#for-experts"
-                className="rounded-full border-2 border-primary-foreground/40 px-8 py-3.5 font-semibold text-primary-foreground hover:bg-primary-foreground/10 transition-all"
-              >
-                Become an Expert
-              </a>
+              </a>     
             </div>
           </motion.div>
 
