@@ -33,11 +33,11 @@ const SafetySection = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Screenshots */}
           <ScrollReveal>
-            <div className="flex justify-center gap-4">
-              <div className="w-[200px] phone-mockup border-[4px] border-foreground/10 float-animation">
+            <div className="flex justify-center gap-3 sm:gap-4">
+              <div className="w-[140px] sm:w-[180px] md:w-[200px] phone-mockup border-[4px] border-foreground/10 float-animation">
                 <img src={screenshotTracking} alt="Real-time expert tracking" className="w-full rounded-[2rem]" />
               </div>
-              <div className="w-[200px] phone-mockup border-[4px] border-foreground/10 float-animation-delayed mt-12">
+              <div className="w-[140px] sm:w-[180px] md:w-[200px] phone-mockup border-[4px] border-foreground/10 float-animation-delayed mt-8 sm:mt-12">
                 <img src={screenshotSession} alt="Session control" className="w-full rounded-[2rem]" />
               </div>
             </div>
